@@ -1,9 +1,10 @@
-Install plugin for git connection
+Install plug in for git connection
 	http://download.eclipse.org/egit/updates
-Add dependecies in MAVEN-POM file
-	Selenium-java
-	TestNG
-	reportng
-	log4j-core
-	log4j-api
-	webdrivermanager
+Highlights for this assignment
+To manage dependencies MAVEN-POM file has been used
+Data driven approach has been implemented using Apache poi.Search data is getting fed from external file 
+Screenshots has been captured for passed and failed test cases both
+TestNG listeners are used for better reporting and logging test results
+
+
+	
