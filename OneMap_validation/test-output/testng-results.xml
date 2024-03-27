@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ThreeMajorFeature started]]>
+    </line>
+    <line>
+      <![CDATA[Three major buttons are clicked ]]>
+    </line>
+    <line>
+      <![CDATA[ThreeMajorFeature is 1]]>
+    </line>
+    <line>
+      <![CDATA[search_by_text started]]>
+    </line>
+    <line>
+      <![CDATA[search_by_text is 2 and screenshot is captured]]>
+    </line>
+    <line>
+      <![CDATA[search_by_text started]]>
+    </line>
+    <line>
+      <![CDATA[Search done ]]>
+    </line>
+    <line>
+      <![CDATA[search_by_text is 1]]>
+    </line>
+    <line>
+      <![CDATA[search_by_text started]]>
+    </line>
+    <line>
+      <![CDATA[Search done ]]>
+    </line>
+    <line>
+      <![CDATA[search_by_text is 1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-27T02:54:50 IST" name="Suite" finished-at="2024-03-27T02:55:49 IST" duration-ms="58871">
+    <groups>
+    </groups>
+    <test started-at="2024-03-27T02:54:50 IST" name="Test" finished-at="2024-03-27T02:55:49 IST" duration-ms="58871">
+      <class name="testcases.SearchFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:54:50 IST" name="setUp" finished-at="2024-03-27T02:54:56 IST" duration-ms="6088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ThreeMajorFeature()[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:54:56 IST" name="ThreeMajorFeature" finished-at="2024-03-27T02:54:59 IST" duration-ms="3179" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ThreeMajorFeature started]]>
+            </line>
+            <line>
+              <![CDATA[Three major buttons are clicked ]]>
+            </line>
+            <line>
+              <![CDATA[ThreeMajorFeature is 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ThreeMajorFeature -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:54:59 IST" name="tearDown" finished-at="2024-03-27T02:54:59 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:55:00 IST" name="setUp" finished-at="2024-03-27T02:55:25 IST" duration-ms="25150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search_by_text(java.lang.String)[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:55:25 IST" name="search_by_text" data-provider="search_testdata" finished-at="2024-03-27T02:55:26 IST" duration-ms="1123" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input class="search-location-input" id="search_property" type="text" autocomplete="off" placeholder="Search OneMap" minlength="1" rows="1"> is not clickable at point (230, 59). Other element would receive the click: <div id="popup-modal" class="popup-modal" style="display: flex;">...</div>
+  (Session info: chrome=122.0.6261.131)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12619ae7a2aefc30b1cd654c48c300bd, clickElement {id=f.D4D4E978932C59B2676CD88BF6C5B53E.d.1DC01B3224E67E4B261336F54F78D38D.e.210}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\palla\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49388/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (12619ae7a2aefc30b1cd654c48c300bd)] -> xpath: //input[@placeholder='Search OneMap']]
+Session ID: 12619ae7a2aefc30b1cd654c48c300bd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="search-location-input" id="search_property" type="text" autocomplete="off" placeholder="Search OneMap" minlength="1" rows="1"> is not clickable at point (230, 59). Other element would receive the click: <div id="popup-modal" class="popup-modal" style="display: flex;">...</div>
+  (Session info: chrome=122.0.6261.131)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12619ae7a2aefc30b1cd654c48c300bd, clickElement {id=f.D4D4E978932C59B2676CD88BF6C5B53E.d.1DC01B3224E67E4B261336F54F78D38D.e.210}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\palla\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49388/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (12619ae7a2aefc30b1cd654c48c300bd)] -> xpath: //input[@placeholder='Search OneMap']]
+Session ID: 12619ae7a2aefc30b1cd654c48c300bd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at testcases.SearchFunctionality.search_by_text(SearchFunctionality.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[search_by_text started]]>
+            </line>
+            <line>
+              <![CDATA[search_by_text is 2 and screenshot is captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_by_text -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:55:27 IST" name="tearDown" finished-at="2024-03-27T02:55:27 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:55:27 IST" name="setUp" finished-at="2024-03-27T02:55:31 IST" duration-ms="4618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search_by_text(java.lang.String)[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:55:31 IST" name="search_by_text" data-provider="search_testdata" finished-at="2024-03-27T02:55:38 IST" duration-ms="6262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[search_by_text started]]>
+            </line>
+            <line>
+              <![CDATA[Search done ]]>
+            </line>
+            <line>
+              <![CDATA[search_by_text is 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_by_text -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:55:38 IST" name="tearDown" finished-at="2024-03-27T02:55:38 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:55:38 IST" name="setUp" finished-at="2024-03-27T02:55:42 IST" duration-ms="3915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search_by_text(java.lang.String)[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:55:42 IST" name="search_by_text" data-provider="search_testdata" finished-at="2024-03-27T02:55:48 IST" duration-ms="6264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[search_by_text started]]>
+            </line>
+            <line>
+              <![CDATA[Search done ]]>
+            </line>
+            <line>
+              <![CDATA[search_by_text is 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_by_text -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SearchFunctionality@5c6648b0]" started-at="2024-03-27T02:55:49 IST" name="tearDown" finished-at="2024-03-27T02:55:49 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SearchFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
